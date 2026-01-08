@@ -246,3 +246,4 @@ Desenvolvido com foco em:
 **Versão:** 1.0  
 **Data:** Janeiro 2026  
 **Clube:** Esporte Clube Hortolândia - Prospere Hortolândia Futsal
+# ECHortolandiafutsal

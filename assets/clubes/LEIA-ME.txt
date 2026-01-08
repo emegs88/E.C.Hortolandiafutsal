@@ -1,0 +1,25 @@
+📁 PASTA DE ESCUDOS DOS CLUBES
+
+Esta pasta contém os escudos/logos dos clubes mencionados na seção de visibilidade.
+
+Estrutura:
+- ech/          - Escudo do E.C.H. (Prospere Hortolândia Futsal)
+- corinthians/  - Escudo do Corinthians
+- palmeiras/    - Escudo do Palmeiras
+- santos/       - Escudo do Santos
+- saopaulo/     - Escudo do São Paulo
+
+Formato recomendado:
+- PNG com fundo transparente (melhor qualidade)
+- SVG (escalável, melhor para web)
+- Resolução: Mínimo 200x200px para boa qualidade
+
+Nomes sugeridos:
+- ech/escudo-ech.png
+- corinthians/escudo-corinthians.png
+- palmeiras/escudo-palmeiras.png
+- santos/escudo-santos.png
+- saopaulo/escudo-saopaulo.png
+
+NOTA: Os escudos serão usados na seção "Visibilidade e Audiência" do site.
+Após adicionar os escudos, me avise e eu atualizo o código para usar as imagens reais.

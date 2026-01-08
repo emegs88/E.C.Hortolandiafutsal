@@ -1,0 +1,19 @@
+📁 PASTA DE FOTOS DA COMISSÃO TÉCNICA
+
+Esta pasta contém as fotos dos membros da comissão técnica.
+
+Estrutura:
+- silvia/  - Fotos de Silvia Bonnaud
+- michel/  - Fotos de Michel Bonnaud
+
+Formato recomendado:
+- PNG ou JPG
+- Resolução: Mínimo 800x800px para boa qualidade
+- Fundo transparente ou fundo neutro (opcional)
+
+Nomes sugeridos:
+- silvia/silvia-bonnaud.jpg (ou .png)
+- michel/michel-bonnaud.jpg (ou .png)
+
+NOTA: As fotos serão usadas na seção "Comissão Técnica" do site.
+Após adicionar as fotos, me avise e eu atualizo o código para usar as imagens reais.

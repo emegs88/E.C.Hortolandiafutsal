@@ -1,0 +1,19 @@
+📁 PASTA DE IMAGENS DE ATLETAS
+
+Esta pasta contém imagens relacionadas aos atletas do clube.
+
+Estrutura:
+- formacao/  - Imagens de atletas em formação/treinamento
+
+Formato recomendado:
+- PNG ou JPG
+- Resolução: Mínimo 1200x800px para boa qualidade
+- Pode ter múltiplas imagens
+
+Nomes sugeridos:
+- formacao/atletas-formacao-1.jpg
+- formacao/atletas-formacao-2.jpg
+- etc.
+
+NOTA: As imagens serão usadas na seção "Maior número de atletas desde a fundação" do site.
+Após adicionar as imagens, me avise e eu atualizo o código para usar as imagens reais.

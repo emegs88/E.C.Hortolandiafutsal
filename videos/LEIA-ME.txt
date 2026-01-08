@@ -1,0 +1,16 @@
+📁 PASTA DE VÍDEOS
+
+Coloque seus arquivos de vídeo MP4 nesta pasta.
+
+Estrutura sugerida:
+- principal.mp4 (vídeo principal/destaque)
+- highlight.mp4 (melhores momentos)
+- treino.mp4 (treinamentos)
+- bastidores.mp4 (bastidores)
+
+Depois de colocar os vídeos aqui, me avise e eu configuro o código para usar esses arquivos!
+
+Formato recomendado:
+- Resolução: 1920x1080 (Full HD) ou 1280x720 (HD)
+- Formato: MP4 (H.264)
+- Tamanho: Idealmente até 100MB por vídeo

@@ -1,0 +1,22 @@
+📁 PASTA DE LOGOS DOS PATROCINADORES
+
+Esta pasta contém os logos dos patrocinadores e parceiros do clube.
+
+Estrutura:
+- 2026/
+  - master/     - Patrocinadores Master (nível mais alto)
+  - premium/    - Patrocinadores Premium
+  - oficial/    - Patrocinadores Oficiais
+
+Formato recomendado:
+- PNG com fundo transparente (melhor qualidade)
+- SVG (escalável, melhor para web)
+- Resolução: Mínimo 400x200px para boa qualidade
+
+Nomes sugeridos:
+- master/logo-patrocinador-master.png
+- premium/logo-patrocinador-premium.png
+- oficial/logo-patrocinador-oficial.png
+
+NOTA: Os logos serão usados na seção "Patrocinadores e Parceiros" do site.
+Após adicionar os logos, me avise e eu atualizo o código para usar as imagens reais.

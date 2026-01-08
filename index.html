@@ -1,0 +1,1351 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Apresentação Premium — Patrocínio 2026</title>
+  <meta name="description" content="Página premium para patrocinadores: benefícios, visibilidade, ESG, cotas e ativações.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css"/>
+</head>
+<body>
+  <!-- Top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+        <div class="brand">
+        <div class="brand__mark">
+          <img src="./assets/logos/logo-escudo-transparente.png" alt="Prospere Hortolândia Futsal" class="brand__logo-img">
+        </div>
+        <div class="brand__text">
+          <div class="brand__name">Prospere Hortolândia Futsal</div>
+          <div class="brand__tag">Patrocínio 2026 • Proposta Premium</div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#beneficios">Benefícios</a>
+        <a href="#historia">História</a>
+        <a href="#videos">Vídeos</a>
+        <a href="#comissao">Comissão</a>
+        <a href="#cotas">Cotas</a>
+        <a href="#parceiros">Parceiros</a>
+        <a href="#midia">Mídia</a>
+        <a href="#faq">FAQ</a>
+        <a href="#cta" class="btn btn--sm">Quero Patrocinar</a>
+      </nav>
+
+      <button class="nav__mobile" id="navMobileBtn" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__drawer" id="navDrawer">
+      <a href="#beneficios">Benefícios</a>
+      <a href="#historia">História</a>
+      <a href="#videos">Vídeos</a>
+      <a href="#comissao">Comissão</a>
+      <a href="#cotas">Cotas</a>
+      <a href="#parceiros">Parceiros</a>
+      <a href="#midia">Mídia</a>
+      <a href="#faq">FAQ</a>
+      <a href="#cta">Quero Patrocinar</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="hero__bg">
+      <div class="hero__bg-gradient"></div>
+      <div class="hero__bg-pattern"></div>
+    </div>
+    <div class="container hero__content">
+      <div class="hero__logo-container">
+        <div class="logo-shield">
+          <img src="./assets/logos/logo-escudo-transparente.png" alt="Prospere Hortolândia Futsal - Logo" class="logo-shield__img">
+        </div>
+        <div class="hero__tagline">
+          <p class="hero__tagline-text">"Há 10 anos levando o nome de nossa cidade ao topo do futsal paulista"</p>
+        </div>
+      </div>
+      
+      <div class="hero__grid">
+        <div class="hero__copy">
+          <div class="pill">
+            <span class="dot"></span>
+            <span id="heroPill">Parceria 2026 • Visibilidade + ESG + Performance</span>
+          </div>
+
+          <h1>
+            Sua marca <span class="grad">lado a lado</span> com um projeto que gera
+            <span class="underline">resultado</span> dentro e fora das quadras.
+          </h1>
+
+          <p class="lead">
+            Há 10 anos levando o nome de Hortolândia ao topo do futsal paulista — com formação,
+            competições oficiais e impacto social real.
+          </p>
+
+        <div class="hero__actions">
+          <a class="btn" href="#cotas">Ver Cotas de Patrocínio</a>
+          <a class="btn btn--ghost" href="#midia">Ver Mídia e Audiência</a>
+        </div>
+
+        <div class="hero__quick">
+          <div class="kpi">
+            <div class="kpi__v" data-count="360">0</div>
+            <div class="kpi__l">Atletas (2026)</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi__v" data-count="18000">0</div>
+            <div class="kpi__l">Seguidores (mín.)</div>
+          </div>
+          <div class="kpi">
+            <div class="kpi__v" data-count="3000">0</div>
+            <div class="kpi__l">Capacidade mínima ginásios</div>
+          </div>
+        </div>
+
+        <div class="hero__meta">
+          <div class="meta__item">
+            <div class="meta__title">Entregáveis</div>
+            <div class="meta__desc">Logo + ativações + conteúdo + presença em competições</div>
+          </div>
+          <div class="meta__item">
+            <div class="meta__title">Formato</div>
+            <div class="meta__desc">Cotas + customizações conforme sua estratégia</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__panel">
+        <div class="glass">
+          <div class="glass__top">
+            <div class="chip">Visibilidade</div>
+            <div class="chip chip--alt">ESG</div>
+            <div class="chip chip--alt2">Performance</div>
+          </div>
+
+          <div class="glass__title">Simulador rápido de retorno</div>
+          <p class="muted">
+            Ajuste alguns parâmetros e tenha uma leitura rápida de valor percebido.
+            (Modelo simples para "conversa comercial" — você pode calibrar.)
+          </p>
+
+          <div class="sim">
+            <label>
+              Investimento (R$)
+              <input id="inv" type="number" value="30000" min="0" step="500">
+            </label>
+            <label>
+              Campanhas/mês
+              <input id="camp" type="number" value="6" min="0" step="1">
+            </label>
+            <label>
+              Conteúdos + ativações/mês
+              <input id="conteudos" type="number" value="20" min="0" step="1">
+            </label>
+
+            <div class="sim__result">
+              <div>
+                <div class="sim__label">Índice de presença</div>
+                <div class="sim__value" id="indice">—</div>
+              </div>
+              <div>
+                <div class="sim__label">Projeção de alcance*</div>
+                <div class="sim__value" id="alcance">—</div>
+              </div>
+            </div>
+
+            <p class="sim__note">*Estimativa baseada em métricas médias do clube</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section class="section" id="beneficios">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>O que você ganha</span>
+        </div>
+        <h2>Benefícios estratégicos para sua marca</h2>
+        <p class="section__lead">
+          Mais do que exposição: uma parceria que alinha sua marca a valores de excelência,
+          formação e impacto social positivo.
+        </p>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="card">
+          <div class="card__icon">📺</div>
+          <h3>Visibilidade Multi-canal</h3>
+          <p>
+            Logo em uniformes, materiais promocionais, redes sociais, transmissões,
+            eventos e competições oficiais. Alcance orgânico e pago.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">🎯</div>
+          <h3>Ativações Personalizadas</h3>
+          <p>
+            Eventos exclusivos, meet & greet, conteúdo co-criado, ações de RSE
+            e campanhas temáticas alinhadas à sua estratégia.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">📊</div>
+          <h3>Relatórios e Métricas</h3>
+          <p>
+            Acompanhamento mensal de alcance, engajamento, impressões e ROI.
+            Dados claros para justificar o investimento.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">🤝</div>
+          <h3>Associação a Valores ESG</h3>
+          <p>
+            Sua marca conectada a um projeto de formação esportiva, inclusão social
+            e desenvolvimento comunitário — valores que importam.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">🏆</div>
+          <h3>Performance Esportiva</h3>
+          <p>
+            Time competitivo em campeonatos oficiais. Sua marca presente em momentos
+            de vitória e conquistas que geram mídia espontânea.
+          </p>
+        </div>
+
+        <div class="card">
+          <div class="card__icon">💼</div>
+          <h3>Networking e Eventos</h3>
+          <p>
+            Acesso a eventos corporativos, jantares com patrocinadores, palestras
+            e oportunidades de networking com outros parceiros.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline / História -->
+  <section class="section timeline-section" id="historia">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Nossa trajetória</span>
+        </div>
+        <h2>A Força da Nossa Identidade</h2>
+        <p class="section__lead">
+          Uma década de conquistas, crescimento e impacto. Conheça os marcos que
+          construíram nossa história e nos levaram ao topo do futsal paulista.
+        </p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline__line"></div>
+        
+        <div class="timeline__item" data-year="2016">
+          <div class="timeline__marker">
+            <div class="timeline__ball">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="white" stroke="#0066ff" stroke-width="2"/>
+                <path d="M12 6 L12 18 M6 12 L18 12" stroke="#0066ff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 8 L16 16 M16 8 L8 16" stroke="#0066ff" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="timeline__content timeline__content--below">
+            <div class="timeline__year">2016</div>
+            <div class="timeline__title">Fundação do E.C.H</div>
+            <div class="timeline__desc">O início de uma jornada que transformaria o futsal de Hortolândia</div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-year="2017">
+          <div class="timeline__marker">
+            <div class="timeline__ball">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="white" stroke="#0066ff" stroke-width="2"/>
+                <path d="M12 6 L12 18 M6 12 L18 12" stroke="#0066ff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 8 L16 16 M16 8 L8 16" stroke="#0066ff" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="timeline__content timeline__content--below">
+            <div class="timeline__year">2017</div>
+            <div class="timeline__title">Participação nas competições da FPFS</div>
+            <div class="timeline__desc">Primeiros passos nas competições oficiais da Federação Paulista</div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-year="2018">
+          <div class="timeline__marker">
+            <div class="timeline__ball">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="white" stroke="#0066ff" stroke-width="2"/>
+                <path d="M12 6 L12 18 M6 12 L18 12" stroke="#0066ff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 8 L16 16 M16 8 L8 16" stroke="#0066ff" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="timeline__content timeline__content--above">
+            <div class="timeline__year">2018</div>
+            <div class="timeline__title">Primeiro título na FPFS</div>
+            <div class="timeline__desc">A primeira conquista que marcou nossa trajetória de vitórias</div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-year="2021">
+          <div class="timeline__marker">
+            <div class="timeline__ball">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="white" stroke="#0066ff" stroke-width="2"/>
+                <path d="M12 6 L12 18 M6 12 L18 12" stroke="#0066ff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 8 L16 16 M16 8 L8 16" stroke="#0066ff" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="timeline__content timeline__content--below">
+            <div class="timeline__year">2021</div>
+            <div class="timeline__title">Maior número de finais na FPFS</div>
+            <div class="timeline__desc">Consolidação como um dos principais clubes do estado</div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-year="2024">
+          <div class="timeline__marker">
+            <div class="timeline__ball">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="white" stroke="#0066ff" stroke-width="2"/>
+                <path d="M12 6 L12 18 M6 12 L18 12" stroke="#0066ff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 8 L16 16 M16 8 L8 16" stroke="#0066ff" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="timeline__content timeline__content--above">
+            <div class="timeline__year">2024</div>
+            <div class="timeline__title">Primeiro Título na LPF</div>
+            <div class="timeline__desc">Conquista histórica na Liga Paulista de Futsal</div>
+          </div>
+        </div>
+
+        <div class="timeline__item" data-year="2025">
+          <div class="timeline__marker">
+            <div class="timeline__ball">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" fill="white" stroke="#0066ff" stroke-width="2"/>
+                <path d="M12 6 L12 18 M6 12 L18 12" stroke="#0066ff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 8 L16 16 M16 8 L8 16" stroke="#0066ff" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="timeline__content timeline__content--below">
+            <div class="timeline__year">2025</div>
+            <div class="timeline__title">Lançamento do time feminino</div>
+            <div class="timeline__desc">Expansão e inclusão: nova modalidade, novos sonhos</div>
+          </div>
+        </div>
+
+        <div class="timeline__item timeline__item--featured" data-year="2026">
+          <div class="timeline__marker">
+            <div class="timeline__ball timeline__ball--featured">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="11" fill="#ffd700" stroke="#0066ff" stroke-width="2"/>
+                <path d="M12 6 L12 18 M6 12 L18 12" stroke="#0066ff" stroke-width="2" stroke-linecap="round"/>
+                <path d="M8 8 L16 16 M16 8 L8 16" stroke="#0066ff" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+          </div>
+          <div class="timeline__content timeline__content--above">
+            <div class="timeline__year">2026</div>
+            <div class="timeline__title">Celebração de 10 anos de vitórias e novas parcerias</div>
+            <div class="timeline__desc">Uma década de excelência. O futuro começa agora com você ao nosso lado</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impacto -->
+  <section class="section section--alt impacto-section" id="impacto">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Impacto social</span>
+        </div>
+        <h2>ESG - Foco no Pilar Social</h2>
+        <p class="section__lead">
+          Patrocinar o Esporte Clube Hortolândia é investir diretamente no capital humano 
+          da nossa cidade. Utilizamos o futsal como ferramenta poderosa de inclusão social, 
+          disciplina e educação.
+        </p>
+      </div>
+
+      <div class="impacto__main">
+        <div class="impacto__esg-diagram">
+          <div class="esg-diagram">
+            <div class="esg-circle esg-circle--sustentabilidade">
+              <div class="esg-icon">🌱</div>
+              <div class="esg-label">SUSTENTABILIDADE</div>
+            </div>
+            <div class="esg-circle esg-circle--governanca">
+              <div class="esg-icon">🏛️</div>
+              <div class="esg-label">GOVERNANÇA</div>
+            </div>
+            <div class="esg-circle esg-circle--social esg-circle--active">
+              <div class="esg-icon">👥</div>
+              <div class="esg-label">SOCIAL</div>
+            </div>
+            <div class="esg-center">ESG</div>
+          </div>
+        </div>
+
+        <div class="impacto__content">
+          <div class="impacto__intro">
+            <p class="impacto__text">
+              Atendemos mais de <strong>200 crianças e adolescentes</strong>, utilizando o futsal 
+              como uma ferramenta poderosa de inclusão social, disciplina e educação. Para nós, 
+              o placar mais importante é garantir que <strong>100% dos nossos atletas estejam 
+              matriculados e frequentando a escola</strong>, construindo um futuro com mais 
+              oportunidades e cidadania.
+            </p>
+          </div>
+
+          <div class="impacto__pillars">
+            <div class="pillar__card">
+              <div class="pillar__icon">✓</div>
+              <div class="pillar__content">
+                <h3 class="pillar__title">Inclusão</h3>
+                <p class="pillar__desc">
+                  As seletivas (peneiras) são frequentes e abertas à comunidade, buscando 
+                  democratizar o acesso ao esporte de alto rendimento.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar__card">
+              <div class="pillar__icon">✓</div>
+              <div class="pillar__content">
+                <h3 class="pillar__title">Equidade de Gênero</h3>
+                <p class="pillar__desc">
+                  Permitindo que atletas do sexo feminino atuem no esporte, no momento em que 
+                  o interesse pelo futebol feminino cresce <strong>34% no Brasil</strong>.
+                </p>
+              </div>
+            </div>
+
+            <div class="pillar__card">
+              <div class="pillar__icon">✓</div>
+              <div class="pillar__content">
+                <h3 class="pillar__title">Fomento ao Esporte</h3>
+                <p class="pillar__desc">
+                  Fomentamos o esporte para desenvolver a disciplina, ética e trabalho em equipe 
+                  para os jovens da nossa região.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="impacto__stats">
+            <div class="impacto__stat">
+              <div class="impacto__stat-value">200+</div>
+              <div class="impacto__stat-label">Crianças e adolescentes atendidos</div>
+            </div>
+            <div class="impacto__stat">
+              <div class="impacto__stat-value">100%</div>
+              <div class="impacto__stat-label">Atletas matriculados e frequentando escola</div>
+            </div>
+            <div class="impacto__stat">
+              <div class="impacto__stat-value">34%</div>
+              <div class="impacto__stat-label">Crescimento do interesse pelo futebol feminino</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comissão Técnica -->
+  <section class="section section--alt comissao-section" id="comissao">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Equipe técnica</span>
+        </div>
+        <h2>Comissão Técnica</h2>
+        <p class="section__lead">
+          Equipe técnica reconhecida e qualificada, garantindo excelência em cada
+          aspecto do desenvolvimento esportivo e formação de atletas.
+        </p>
+      </div>
+
+      <div class="grid grid--2 comissao__grid">
+        <div class="comissao__card">
+          <div class="comissao__photo">
+            <!-- Foto de Silvia Bonnaud -->
+            <img src="./assets/comissao/silvia/PHOTO-2026-01-07-19-33-19.jpg" alt="Silvia Bonnaud" class="comissao__photo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <!-- Placeholder (fallback) -->
+            <div class="comissao__photo-placeholder" style="display:none;">
+              <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="60" r="60" fill="#e0e0e0"/>
+                <circle cx="60" cy="45" r="20" fill="#999"/>
+                <path d="M20 100 Q20 70 60 70 Q100 70 100 100" fill="#999"/>
+              </svg>
+            </div>
+          </div>
+          <div class="comissao__content">
+            <h3 class="comissao__name">Silvia Bonnaud</h3>
+            <div class="comissao__info">
+              <div class="comissao__qualification">
+                <strong>Formação:</strong> Educação Física pela PUC-Campinas
+              </div>
+              <div class="comissao__qualification">
+                <strong>Licença:</strong> Treinadora pela Federação Paulista de Futsal (FPFS)
+              </div>
+              <div class="comissao__qualification">
+                <strong>Certificação:</strong> Árbitra de futsal certificada pela Federação Paulista
+              </div>
+            </div>
+            <div class="comissao__description">
+              <p>
+                Formada em Educação Física pela PUC-Campinas, possui licença de treinadora pela 
+                Federação Paulista de Futsal (FPFS), curso ministrado em parceria com a Futsal Academy. 
+                É árbitra de futsal certificada pela Federação Paulista.
+              </p>
+              <p>
+                Sua forte habilidade de planejamento tático e formação de base, apoiam no desenvolvimento 
+                de atletas e programas educativos, além de garantir um ambiente seguro ao todo time.
+              </p>
+            </div>
+            <div class="comissao__badges">
+              <span class="comissao__badge">Planejamento Tático</span>
+              <span class="comissao__badge">Formação de Base</span>
+              <span class="comissao__badge">Arbitragem</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="comissao__card">
+          <div class="comissao__photo">
+            <!-- Foto de Michel Bonnaud -->
+            <img src="./assets/comissao/michel/PHOTO-2026-01-07-19-31-06.jpg" alt="Michel Bonnaud" class="comissao__photo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+            <!-- Placeholder (fallback) -->
+            <div class="comissao__photo-placeholder" style="display:none;">
+              <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="60" cy="60" r="60" fill="#e0e0e0"/>
+                <circle cx="60" cy="45" r="20" fill="#999"/>
+                <path d="M20 100 Q20 70 60 70 Q100 70 100 100" fill="#999"/>
+              </svg>
+            </div>
+          </div>
+          <div class="comissao__content">
+            <h3 class="comissao__name">Michel Bonnaud</h3>
+            <div class="comissao__info">
+              <div class="comissao__qualification">
+                <strong>Formação:</strong> Educação Física pela UNIMES - Santos
+              </div>
+              <div class="comissao__qualification">
+                <strong>Licença:</strong> Treinador pela Federação Paulista de Futsal (FPFS)
+              </div>
+              <div class="comissao__qualification">
+                <strong>Reconhecimento:</strong> Melhor Árbitro FIFA de 2009
+              </div>
+            </div>
+            <div class="comissao__description">
+              <p>
+                Formado em Educação Física pela UNIMES - Santos. Possui licença de treinador pela 
+                Federação Paulista de Futsal (FPFS), curso ministrado em parceria com a Futsal Academy. 
+                Atua como árbitro da liga nacional de futsal e foi eleito o melhor árbitro FIFA de 2009.
+              </p>
+              <p>
+                Seu foco na preparação física, análise de desempenho e gestão de equipes asseguram 
+                alta competitividade e evolução técnica da equipe.
+              </p>
+            </div>
+            <div class="comissao__badges">
+              <span class="comissao__badge comissao__badge--featured">Árbitro FIFA</span>
+              <span class="comissao__badge">Preparação Física</span>
+              <span class="comissao__badge">Análise de Performance</span>
+              <span class="comissao__badge">Gestão de Equipes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cotas -->
+  <section class="section" id="cotas">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Investimento</span>
+        </div>
+        <h2>Cotas de patrocínio 2026</h2>
+        <p class="section__lead">
+          Escolha a cota que melhor se alinha à sua estratégia. Todas incluem
+          benefícios base e podem ser customizadas.
+        </p>
+      </div>
+
+      <!-- Visualização dos Uniformes -->
+      <div class="uniformes__section">
+        <h3 class="uniformes__title">Cotas Disponíveis (Ouro e Prata)</h3>
+        <p class="uniformes__subtitle">Visualize as áreas de patrocínio disponíveis nos uniformes</p>
+        
+        <div class="uniformes__container">
+          <!-- Imagem completa do uniforme -->
+          <div class="uniforme__full-wrapper">
+            <img src="./assets/uniformes/PHOTO-2026-01-07-19-36-53.jpg" alt="Uniformes - Áreas de Patrocínio Ouro e Prata" class="uniforme__full-img">
+          </div>
+        </div>
+
+        <div class="uniformes__legend">
+          <div class="legend__item">
+            <div class="legend__color legend__color--ouro"></div>
+            <div class="legend__text">
+              <strong>OURO:</strong> 3 áreas disponíveis (costas da camisa e perna direita do short)
+            </div>
+          </div>
+          <div class="legend__item">
+            <div class="legend__color legend__color--prata"></div>
+            <div class="legend__text">
+              <strong>PRATA:</strong> 4 áreas disponíveis (frente da camisa, mangas e perna esquerda do short)
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid--3">
+        <div class="cota">
+          <div class="cota__badge">Bronze</div>
+          <div class="cota__price">
+            <span class="cota__currency">R$</span>
+            <span class="cota__value">15.000</span>
+            <span class="cota__period">/ano</span>
+          </div>
+          <div class="cota__parcelado">
+            <span class="cota__parcelado-label">ou</span>
+            <span class="cota__parcelado-value">R$ 1.500</span>
+            <span class="cota__parcelado-period">/mês em 10x</span>
+          </div>
+          <ul class="cota__features">
+            <li>Logo em uniformes (categoria específica)</li>
+            <li>Mencionado em 2 posts/mês nas redes</li>
+            <li>Logo no site e materiais promocionais</li>
+            <li>Relatório trimestral de métricas</li>
+            <li>Convites para jogos (2 por mês)</li>
+          </ul>
+          <a href="#cta" class="btn btn--outline">Escolher Bronze</a>
+        </div>
+
+        <div class="cota cota--featured">
+          <div class="cota__badge cota__badge--featured">Prata</div>
+          <div class="cota__price">
+            <span class="cota__currency">R$</span>
+            <span class="cota__value">30.000</span>
+            <span class="cota__period">/ano</span>
+          </div>
+          <div class="cota__parcelado">
+            <span class="cota__parcelado-label">ou</span>
+            <span class="cota__parcelado-value">R$ 3.000</span>
+            <span class="cota__parcelado-period">/mês em 10x</span>
+          </div>
+          <ul class="cota__features">
+            <li>Logo em uniformes (múltiplas categorias)</li>
+            <li>Mencionado em 6 posts/mês nas redes</li>
+            <li>Destaque no site e materiais</li>
+            <li>Relatório mensal de métricas</li>
+            <li>Convites para jogos (ilimitados)</li>
+            <li>1 ativação personalizada/trimestre</li>
+            <li>Conteúdo co-criado (2/mês)</li>
+          </ul>
+          <a href="#cta" class="btn">Escolher Prata</a>
+        </div>
+
+        <div class="cota">
+          <div class="cota__badge">Ouro</div>
+          <div class="cota__price">
+            <span class="cota__currency">R$</span>
+            <span class="cota__value">60.000</span>
+            <span class="cota__period">/ano</span>
+          </div>
+          <div class="cota__parcelado">
+            <span class="cota__parcelado-label">ou</span>
+            <span class="cota__parcelado-value">R$ 6.000</span>
+            <span class="cota__parcelado-period">/mês em 10x</span>
+          </div>
+          <ul class="cota__features">
+            <li>Logo em todos os uniformes (destaque)</li>
+            <li>Mencionado em 12+ posts/mês nas redes</li>
+            <li>Destaque premium no site e materiais</li>
+            <li>Relatório mensal detalhado + reunião</li>
+            <li>Convites VIP para jogos e eventos</li>
+            <li>3 ativações personalizadas/trimestre</li>
+            <li>Conteúdo co-criado (4/mês)</li>
+            <li>Evento exclusivo anual</li>
+            <li>Naming rights (opcional, negociável)</li>
+          </ul>
+          <a href="#cta" class="btn btn--outline">Escolher Ouro</a>
+        </div>
+      </div>
+
+      <div class="cota__note">
+        <p>
+          <strong>Nota:</strong> Valores podem ser ajustados conforme período de contrato,
+          customizações específicas e parcerias estratégicas. Parcelamento em 10x sem juros 
+          disponível. Entre em contato para discutir opções personalizadas e condições especiais.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Vídeos e Highlights -->
+  <section class="section videos-section" id="videos">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Conteúdo em vídeo</span>
+        </div>
+        <h2>Vídeos e Highlights</h2>
+        <p class="section__lead">
+          Acompanhe nossos melhores momentos, treinos, jogos e conteúdo exclusivo.
+          Veja a energia e dedicação que fazem do ECH um time de elite.
+        </p>
+      </div>
+
+      <div class="videos__grid">
+        <!-- Vídeo Principal (Destaque) -->
+        <div class="video__item video__item--featured">
+          <video 
+            width="100%" 
+            height="100%" 
+            controls 
+            preload="metadata"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; border-radius: 12px; background: #000;">
+            <source src="./videos/Prospere Futsal.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+          </video>
+        </div>
+
+        <!-- Grid de Vídeos Secundários -->
+        <div class="video__item">
+          <video 
+            width="100%" 
+            height="100%" 
+            controls 
+            preload="metadata"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; border-radius: 12px; background: #000;">
+            <source src="./videos/Jantar Prospere Consórcios.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+          </video>
+        </div>
+
+        <div class="video__item">
+          <video 
+            width="100%" 
+            height="100%" 
+            controls 
+            preload="metadata"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; border-radius: 12px; background: #000;">
+            <source src="./videos/VIDEO-2025-12-09-18-33-37.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+          </video>
+        </div>
+
+        <div class="video__item">
+          <video 
+            width="100%" 
+            height="100%" 
+            controls 
+            preload="metadata"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: contain; border-radius: 12px; background: #000;">
+            <source src="./videos/Edmilson.mov" type="video/quicktime">
+            <source src="./videos/Edmilson.mov" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+          </video>
+        </div>
+      </div>
+
+      <div class="videos__note">
+        <p>
+          <strong>Nota:</strong> Mais vídeos serão adicionados em breve. Esta seção está preparada 
+          para receber conteúdo do YouTube, Vimeo ou hospedagem própria.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parceiros Atuais -->
+  <section class="section section--alt parceiros-section" id="parceiros">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Nossos parceiros</span>
+        </div>
+        <h2>Patrocinadores e Parceiros</h2>
+        <p class="section__lead">
+          Empresas que acreditam no nosso projeto e fazem parte da nossa história de sucesso.
+        </p>
+      </div>
+
+      <div class="parceiros__grid">
+        <div class="parceiro__card">
+          <!-- Logo Patrocinador Master -->
+          <img src="./assets/patrocinadores/2026/master/IMG_AE69826B8DA2-1.jpeg" alt="Patrocinador Master" class="parceiro__logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="parceiro__logo-placeholder" style="display:none;">
+            <div class="parceiro__logo-text">Logo Parceiro</div>
+          </div>
+          <div class="parceiro__info">
+            <h3 class="parceiro__name">Patrocinador Master</h3>
+            <p class="parceiro__tempo">Parceiro desde 2026</p>
+          </div>
+        </div>
+
+        <div class="parceiro__card">
+          <!-- Logo Patrocinador Premium -->
+          <img src="./assets/patrocinadores/2026/premium/IMG_AE69826B8DA2-1.jpeg" alt="Patrocinador Premium" class="parceiro__logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="parceiro__logo-placeholder" style="display:none;">
+            <div class="parceiro__logo-text">Logo Parceiro</div>
+          </div>
+          <div class="parceiro__info">
+            <h3 class="parceiro__name">Patrocinador Premium</h3>
+            <p class="parceiro__tempo">Parceiro desde 2026</p>
+          </div>
+        </div>
+
+        <div class="parceiro__card">
+          <!-- Logo Patrocinador Oficial -->
+          <img src="./assets/patrocinadores/2026/oficial/IMG_AE69826B8DA2-1.jpeg" alt="Patrocinador Oficial" class="parceiro__logo-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="parceiro__logo-placeholder" style="display:none;">
+            <div class="parceiro__logo-text">Logo Parceiro</div>
+          </div>
+          <div class="parceiro__info">
+            <h3 class="parceiro__name">Patrocinador Oficial</h3>
+            <p class="parceiro__tempo">Parceiro desde 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="parceiros__cta">
+        <p>Faça parte deste time de sucesso!</p>
+        <a href="#cta" class="btn">Seja um Parceiro</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Comparativo de Investimento -->
+  <section class="section comparativo-section" id="comparativo">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Análise de investimento</span>
+        </div>
+        <h2>Compare o Investimento</h2>
+        <p class="section__lead">
+          Veja como o patrocínio esportivo oferece melhor custo-benefício 
+          comparado a outras formas de mídia tradicional.
+        </p>
+      </div>
+
+      <div class="comparativo__table">
+        <div class="comparativo__header">
+          <div class="comparativo__col comparativo__col--metric">Métrica</div>
+          <div class="comparativo__col comparativo__col--patrocinio">Patrocínio ECH</div>
+          <div class="comparativo__col comparativo__col--tv">TV Regional</div>
+          <div class="comparativo__col comparativo__col--radio">Rádio</div>
+          <div class="comparativo__col comparativo__col--digital">Mídia Digital</div>
+        </div>
+
+        <div class="comparativo__row">
+          <div class="comparativo__col comparativo__col--metric">
+            <strong>Investimento Anual</strong>
+          </div>
+          <div class="comparativo__col comparativo__col--patrocinio">
+            <span class="comparativo__value comparativo__value--best">R$ 30.000</span>
+            <span class="comparativo__badge comparativo__badge--best">Melhor Custo</span>
+          </div>
+          <div class="comparativo__col comparativo__col--tv">
+            <span class="comparativo__value">R$ 120.000+</span>
+          </div>
+          <div class="comparativo__col comparativo__col--radio">
+            <span class="comparativo__value">R$ 60.000+</span>
+          </div>
+          <div class="comparativo__col comparativo__col--digital">
+            <span class="comparativo__value">R$ 80.000+</span>
+          </div>
+        </div>
+
+        <div class="comparativo__row">
+          <div class="comparativo__col comparativo__col--metric">
+            <strong>Alcance Mensal</strong>
+          </div>
+          <div class="comparativo__col comparativo__col--patrocinio">
+            <span class="comparativo__value comparativo__value--best">18.000+</span>
+            <span class="comparativo__badge comparativo__badge--best">Orgânico</span>
+          </div>
+          <div class="comparativo__col comparativo__col--tv">
+            <span class="comparativo__value">Variável</span>
+          </div>
+          <div class="comparativo__col comparativo__col--radio">
+            <span class="comparativo__value">5.000-10.000</span>
+          </div>
+          <div class="comparativo__col comparativo__col--digital">
+            <span class="comparativo__value">Pago (limitado)</span>
+          </div>
+        </div>
+
+        <div class="comparativo__row">
+          <div class="comparativo__col comparativo__col--metric">
+            <strong>Engajamento</strong>
+          </div>
+          <div class="comparativo__col comparativo__col--patrocinio">
+            <span class="comparativo__value comparativo__value--best">8%</span>
+            <span class="comparativo__badge comparativo__badge--best">Alto</span>
+          </div>
+          <div class="comparativo__col comparativo__col--tv">
+            <span class="comparativo__value">Passivo</span>
+          </div>
+          <div class="comparativo__col comparativo__col--radio">
+            <span class="comparativo__value">Baixo</span>
+          </div>
+          <div class="comparativo__col comparativo__col--digital">
+            <span class="comparativo__value">2-3%</span>
+          </div>
+        </div>
+
+        <div class="comparativo__row">
+          <div class="comparativo__col comparativo__col--metric">
+            <strong>Associação a Valores</strong>
+          </div>
+          <div class="comparativo__col comparativo__col--patrocinio">
+            <span class="comparativo__value comparativo__value--best">ESG + Esporte</span>
+            <span class="comparativo__badge comparativo__badge--best">Positivo</span>
+          </div>
+          <div class="comparativo__col comparativo__col--tv">
+            <span class="comparativo__value">Neutro</span>
+          </div>
+          <div class="comparativo__col comparativo__col--radio">
+            <span class="comparativo__value">Neutro</span>
+          </div>
+          <div class="comparativo__col comparativo__col--digital">
+            <span class="comparativo__value">Variável</span>
+          </div>
+        </div>
+
+        <div class="comparativo__row comparativo__row--highlight">
+          <div class="comparativo__col comparativo__col--metric">
+            <strong>ROI Estimado</strong>
+          </div>
+          <div class="comparativo__col comparativo__col--patrocinio">
+            <span class="comparativo__value comparativo__value--best">300-500%</span>
+            <span class="comparativo__badge comparativo__badge--best">Excelente</span>
+          </div>
+          <div class="comparativo__col comparativo__col--tv">
+            <span class="comparativo__value">100-150%</span>
+          </div>
+          <div class="comparativo__col comparativo__col--radio">
+            <span class="comparativo__value">80-120%</span>
+          </div>
+          <div class="comparativo__col comparativo__col--digital">
+            <span class="comparativo__value">150-200%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mídia -->
+  <section class="section section--alt" id="midia">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Visibilidade e audiência</span>
+        </div>
+        <h2>Alcance e engajamento real</h2>
+        <p class="section__lead">
+          Números que comprovam o potencial de visibilidade da sua marca.
+        </p>
+      </div>
+
+      <!-- Grandes Clubes -->
+      <div class="visibilidade__section">
+        <h3 class="visibilidade__title">Sua marca lado a lado com grandes clubes</h3>
+        <div class="clubes__grid">
+          <div class="clube__logo">
+            <div class="clube__logo-inner clube__logo--ech">
+              <img src="./assets/clubes/ech/796D8361-60FF-4D6D-9D9B-752C1FABB33D.PNG" alt="Magnus" class="clube__escudo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+              <svg width="80" height="80" viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg" style="display:none;">
+                <path d="M150 20 L280 60 L280 320 L150 380 L20 320 L20 60 Z" fill="none" stroke="#0066ff" stroke-width="4"/>
+                <path d="M150 40 L260 75 L260 300 L150 350 L40 300 L40 75 Z" fill="#0066ff"/>
+                <text x="150" y="80" text-anchor="middle" fill="#ffffff" font-family="Arial" font-size="16" font-weight="bold">MAGNUS</text>
+              </svg>
+            </div>
+            <div class="clube__name">Magnus</div>
+          </div>
+          <div class="clube__logo">
+            <div class="clube__logo-inner clube__logo--corinthians">
+              <img src="./assets/clubes/corinthians/9A41CD80-9982-4EF7-9D0D-1AC8AF2C3C1B.PNG" alt="Corinthians" class="clube__escudo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="clube__placeholder" style="display:none;">⚽</div>
+            </div>
+            <div class="clube__name">Corinthians</div>
+          </div>
+          <div class="clube__logo">
+            <div class="clube__logo-inner clube__logo--palmeiras">
+              <img src="./assets/clubes/palmeiras/IMG_6474.PNG" alt="Palmeiras" class="clube__escudo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="clube__placeholder" style="display:none;">⚽</div>
+            </div>
+            <div class="clube__name">Palmeiras</div>
+          </div>
+          <div class="clube__logo">
+            <div class="clube__logo-inner clube__logo--santos">
+              <img src="./assets/clubes/santos/IMG_6475.PNG" alt="Santos" class="clube__escudo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="clube__placeholder" style="display:none;">⚽</div>
+            </div>
+            <div class="clube__name">Santos</div>
+          </div>
+          <div class="clube__logo">
+            <div class="clube__logo-inner clube__logo--saopaulo">
+              <img src="./assets/clubes/saopaulo/IMG_6476.PNG" alt="São Paulo" class="clube__escudo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+              <div class="clube__placeholder" style="display:none;">⚽</div>
+            </div>
+            <div class="clube__name">São Paulo</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Competições -->
+      <div class="visibilidade__section">
+        <h3 class="visibilidade__title">Competições nas principais entidades</h3>
+        <div class="competicoes__grid">
+          <div class="competicao__card">
+            <div class="competicao__logo">
+              <div class="competicao__placeholder">FPFS</div>
+            </div>
+            <div class="competicao__name">Federação Paulista de Futsal</div>
+          </div>
+          <div class="competicao__card">
+            <div class="competicao__logo">
+              <div class="competicao__placeholder">LPF</div>
+            </div>
+            <div class="competicao__name">Liga Paulista de Futsal</div>
+          </div>
+          <div class="competicao__card">
+            <div class="competicao__logo">
+              <div class="competicao__placeholder">LB</div>
+            </div>
+            <div class="competicao__name">Liga Brasil</div>
+          </div>
+          <div class="competicao__card">
+            <div class="competicao__logo">
+              <div class="competicao__placeholder">CSP</div>
+            </div>
+            <div class="competicao__name">Copa São Paulo Futsal de Base</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Atletas -->
+      <div class="visibilidade__section visibilidade__section--highlight">
+        <div class="grid grid--2">
+          <div>
+            <h3 class="visibilidade__title">Maior número de atletas desde a fundação</h3>
+            <p class="visibilidade__desc">
+              Crescimento constante e investimento em formação. Mais de 360 atletas 
+              em todas as categorias, representando o maior número desde a fundação do clube.
+            </p>
+            <div class="visibilidade__stat">
+              <div class="visibilidade__stat-value">360+</div>
+              <div class="visibilidade__stat-label">Atletas em 2026</div>
+            </div>
+          </div>
+          <div class="visibilidade__image">
+            <!-- Imagem de atletas em formação -->
+            <img src="./assets/atletas/formacao/PHOTO-2026-01-07-19-32-55.jpg" alt="Atletas em formação" class="visibilidade__image-real" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="display:block;">
+            <!-- Placeholder (fallback) -->
+            <div class="visibilidade__image-placeholder" style="display:none;">
+              <svg width="100%" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="300" fill="#e8f4f8"/>
+                <rect x="50" y="50" width="300" height="200" rx="8" fill="#cce7f0"/>
+                <circle cx="100" cy="120" r="15" fill="#0066ff"/>
+                <circle cx="150" cy="120" r="15" fill="#0066ff"/>
+                <circle cx="200" cy="120" r="15" fill="#0066ff"/>
+                <circle cx="250" cy="120" r="15" fill="#0066ff"/>
+                <circle cx="300" cy="120" r="15" fill="#0066ff"/>
+                <text x="200" y="180" text-anchor="middle" fill="#666" font-family="Arial" font-size="16">Atletas em formação</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ginásios -->
+      <div class="visibilidade__section">
+        <h3 class="visibilidade__title">Ginásios com capacidade mínima de 3.000 pessoas</h3>
+        <div class="grid grid--2">
+          <div class="visibilidade__image">
+            <!-- Imagem da Arena de Futsal -->
+            <img src="./assets/ginasios/arena-futsal/8d444153-4696-4127-bdd8-bad00c773c24.JPG" alt="Arena de Futsal" class="visibilidade__image-real" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="display:block;">
+            <!-- Placeholder (fallback) -->
+            <div class="visibilidade__image-placeholder" style="display:none;">
+              <svg width="100%" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="250" fill="#f0f8ff"/>
+                <rect x="50" y="50" width="300" height="150" rx="8" fill="#d0e8ff"/>
+                <rect x="80" y="80" width="60" height="40" rx="4" fill="#0066ff" opacity="0.3"/>
+                <rect x="260" y="80" width="60" height="40" rx="4" fill="#0066ff" opacity="0.3"/>
+                <text x="200" y="140" text-anchor="middle" fill="#666" font-family="Arial" font-size="14">Arena de Futsal</text>
+              </svg>
+            </div>
+          </div>
+          <div class="visibilidade__image">
+            <!-- Imagem do Ginásio Principal -->
+            <img src="./assets/ginasios/ginasio-principal/5eb5671f-6426-4349-8674-b452999efcaf.JPG" alt="Ginásio Principal" class="visibilidade__image-real" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="display:block;">
+            <!-- Placeholder (fallback) -->
+            <div class="visibilidade__image-placeholder" style="display:none;">
+              <svg width="100%" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="250" fill="#f0f8ff"/>
+                <rect x="50" y="50" width="300" height="150" rx="8" fill="#d0e8ff"/>
+                <circle cx="150" cy="120" r="20" fill="#0066ff" opacity="0.3"/>
+                <circle cx="250" cy="120" r="20" fill="#0066ff" opacity="0.3"/>
+                <text x="200" y="140" text-anchor="middle" fill="#666" font-family="Arial" font-size="14">Ginásio Principal</text>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="visibilidade__stat visibilidade__stat--center">
+          <div class="visibilidade__stat-value">3.000+</div>
+          <div class="visibilidade__stat-label">Capacidade mínima por ginásio</div>
+        </div>
+      </div>
+
+      <!-- Redes Sociais e Transmissões -->
+      <div class="visibilidade__section visibilidade__section--highlight">
+        <h3 class="visibilidade__title">Jogos com transmissão online e mais de dezoito mil seguidores nas redes!</h3>
+        <div class="redes__grid">
+          <a href="https://www.youtube.com/@EsportePlayOficial" target="_blank" rel="noopener noreferrer" class="rede__card rede__card--link">
+            <div class="rede__logo rede__logo--youtube">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="#FF0000" xmlns="http://www.w3.org/2000/svg">
+                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+              </svg>
+            </div>
+            <div class="rede__name">YouTube</div>
+            <div class="rede__desc">Transmissões ao vivo</div>
+          </a>
+          <a href="https://www.instagram.com/prosperefutsal?igsh=OHI2OHdjZTNqcjA0&utm_source=qr" target="_blank" rel="noopener noreferrer" class="rede__card rede__card--link">
+            <div class="rede__logo rede__logo--instagram">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="url(#instagram-gradient)" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="instagram-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" style="stop-color:#833AB4"/>
+                    <stop offset="50%" style="stop-color:#FD1D1D"/>
+                    <stop offset="100%" style="stop-color:#FCAF45"/>
+                  </linearGradient>
+                </defs>
+                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+              </svg>
+            </div>
+            <div class="rede__name">Instagram</div>
+            <div class="rede__desc">18.000+ seguidores</div>
+          </a>
+          <a href="https://www.facebook.com/share/1EtQpdTfx5/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="rede__card rede__card--link">
+            <div class="rede__logo rede__logo--facebook">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="#1877F2" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+              </svg>
+            </div>
+            <div class="rede__name">Facebook</div>
+            <div class="rede__desc">Esporte Play</div>
+          </a>
+          <div class="rede__card">
+            <div class="rede__logo rede__logo--esporteplay">
+              <div class="rede__logo-inner">▶</div>
+            </div>
+            <div class="rede__name">Esporte Play</div>
+            <div class="rede__desc">Plataforma oficial</div>
+          </div>
+        </div>
+        <div class="visibilidade__stat visibilidade__stat--center">
+          <div class="visibilidade__stat-value">18.000+</div>
+          <div class="visibilidade__stat-label">Seguidores nas redes sociais</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section section--alt" id="faq">
+    <div class="container">
+      <div class="section__header">
+        <div class="pill">
+          <span class="dot"></span>
+          <span>Dúvidas frequentes</span>
+        </div>
+        <h2>Perguntas Frequentes</h2>
+        <p class="section__lead">
+          Tire suas dúvidas sobre patrocínio, entregáveis e processo.
+        </p>
+      </div>
+
+      <div class="faq__container">
+        <div class="faq__item">
+          <div class="faq__question">
+            <h3>Como funciona o processo de patrocínio?</h3>
+            <span class="faq__icon">+</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              O processo é simples: entre em contato conosco, agendamos uma reunião para apresentar 
+              as opções de cotas, alinhamos expectativas, definimos os entregáveis e assinamos o contrato. 
+              Todo o processo é acompanhado pela nossa equipe comercial.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <div class="faq__question">
+            <h3>Posso customizar minha cota?</h3>
+            <span class="faq__icon">+</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              Sim! Todas as cotas podem ser customizadas conforme sua estratégia. Podemos criar ativações 
+              específicas, ajustar a frequência de posts, criar eventos exclusivos e muito mais. 
+              Entre em contato para discutir suas necessidades.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <div class="faq__question">
+            <h3>Como são os relatórios de métricas?</h3>
+            <span class="faq__icon">+</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              Os relatórios incluem alcance, engajamento, impressões, visualizações e ROI estimado. 
+              Cotas Bronze recebem relatórios trimestrais, enquanto Prata e Ouro recebem mensais. 
+              A cota Ouro inclui reuniões presenciais para análise detalhada.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <div class="faq__question">
+            <h3>Quais são as formas de pagamento?</h3>
+            <span class="faq__icon">+</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              Aceitamos pagamento à vista (com desconto) ou parcelado. O pagamento pode ser mensal, 
+              trimestral ou anual, conforme acordado no contrato. Entre em contato para conhecer 
+              as condições especiais.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <div class="faq__question">
+            <h3>Meu logo aparecerá em todas as categorias?</h3>
+            <span class="faq__icon">+</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              Depende da cota escolhida. A cota Bronze inclui categoria específica, Prata inclui 
+              múltiplas categorias, e Ouro inclui todas as categorias (base e principal). 
+              Podemos definir isso na negociação.
+            </p>
+          </div>
+        </div>
+
+        <div class="faq__item">
+          <div class="faq__question">
+            <h3>Como funciona o naming rights?</h3>
+            <span class="faq__icon">+</span>
+          </div>
+          <div class="faq__answer">
+            <p>
+              O naming rights está disponível para a cota Ouro e é negociável. Pode incluir nome 
+              do ginásio, torneios, categorias específicas ou outras oportunidades. Entre em contato 
+              para discutir as opções disponíveis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta" id="cta">
+    <div class="container">
+      <div class="cta__content">
+        <h2>Pronto para fazer parte desta história?</h2>
+        <p>
+          Entre em contato e vamos construir uma parceria que gere resultados
+          para sua marca e impacto positivo para a comunidade.
+        </p>
+        <div class="cta__actions">
+          <a href="mailto:patrocinio@echortolandia.com.br" class="btn btn--lg">Falar com Comercial</a>
+          <a href="tel:+5519999999999" class="btn btn--lg btn--ghost">Ligar Agora</a>
+        </div>
+        <div class="cta__contact">
+          <div class="cta__item">
+            <strong>Email:</strong> patrocinio@echortolandia.com.br
+          </div>
+          <div class="cta__item">
+            <strong>WhatsApp:</strong> (19) 99999-9999
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__brand">
+          <div class="brand__mark">
+            <img src="./assets/logos/logo-escudo-transparente.png" alt="Prospere Hortolândia Futsal" class="brand__logo-img brand__logo-img--footer">
+          </div>
+          <div class="footer__text">
+            <div class="brand__name">Prospere Hortolândia Futsal</div>
+            <p>Patrocínio 2026 • Proposta Premium</p>
+          </div>
+        </div>
+        <div class="footer__links">
+          <a href="#beneficios">Benefícios</a>
+          <a href="#historia">História</a>
+          <a href="#videos">Vídeos</a>
+          <a href="#comissao">Comissão</a>
+          <a href="#cotas">Cotas</a>
+          <a href="#parceiros">Parceiros</a>
+          <a href="#midia">Mídia</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 Esporte Clube Hortolândia. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

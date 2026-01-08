@@ -1,0 +1,15 @@
+📁 PASTA DE IMAGENS DOS UNIFORMES
+
+Esta pasta é para armazenar as imagens dos uniformes com as áreas de patrocínio marcadas.
+
+Estrutura sugerida:
+- uniforme-frente.png (ou .jpg, .svg)
+- uniforme-costas.png (ou .jpg, .svg)
+
+Formato recomendado:
+- PNG com boa qualidade (transparente se possível)
+- SVG para melhor qualidade e escalabilidade
+- Resolução: Mínimo 800x1200px para boa visualização
+
+NOTA: Estas imagens serão usadas na seção "Uniformes" do site
+para mostrar as áreas de patrocínio disponíveis (Ouro e Prata).

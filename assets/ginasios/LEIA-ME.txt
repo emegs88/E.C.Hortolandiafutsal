@@ -1,0 +1,19 @@
+📁 PASTA DE IMAGENS DOS GINÁSIOS
+
+Esta pasta contém imagens dos ginásios e arenas do clube.
+
+Estrutura:
+- arena-futsal/      - Imagens da Arena de Futsal
+- ginasio-principal/ - Imagens do Ginásio Principal
+
+Formato recomendado:
+- PNG ou JPG
+- Resolução: Mínimo 1200x800px para boa qualidade
+- Pode ter múltiplas imagens
+
+Nomes sugeridos:
+- arena-futsal/arena-futsal.jpg
+- ginasio-principal/ginasio-principal.jpg
+
+NOTA: As imagens serão usadas na seção "Ginásios com capacidade mínima de 3.000 pessoas" do site.
+Após adicionar as imagens, me avise e eu atualizo o código para usar as imagens reais.

@@ -56,3 +56,9 @@ ENV/
 # Scripts temporários
 remove_background.py
 adicionar_marcacoes_uniforme.py
+
+# Vídeos grandes (usar hospedagem externa)
+videos/*.mp4
+videos/*.mov
+videos/*.avi
+videos/*.mkv
